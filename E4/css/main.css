@@ -1,11 +1,35 @@
 body {
-  background-color: #fcb6ee;
+  background-color: #fc0303;
   margin: 0;
-  font-size: 30px;
+  font-size: 50px;
+}
+p {
+  line-height: 30%;
+  color: #00ff99;
+}
+div {
+  margin-top: 35vh;
 }
 .Desktop {
   text-align: center;
+  font-family: 'Gluten', cursive;
 }
 .mobile-only {
+  display: none;
   text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  body {
+  background-color: #fcb6ee;
+  }
+  p {
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  }
+  .mobile-only{
+  display: block;
+  }
+.Desktop{
+  display: none;
+  }
 }
